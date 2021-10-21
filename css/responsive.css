@@ -16,7 +16,7 @@
 
 @media (max-width:  425px){
 body{
-	overflow-x:hidden;
+width: 100%;
 	}
 .nav{
 	display: none;
