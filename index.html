@@ -265,24 +265,24 @@
         </script>
         <script>
             
-			const work_box = document.querySelector('.code-wrap');
+	    const work_box = document.querySelector('.code-wrap');
             const nav = document.querySelector('.pc');
             const ham = document.querySelector('.pc-con');
-			const windoww = document.body;
-			const clicked = false;
+	    const windoww = document.body;
+	    const clicked = false;
 			
-			const show = document.querySelector('.is-show');
+	    const show = document.querySelector('.is-show');
 
-			var top  = window.pageYOffset || document.documentElement.scrollTop;
+	    var top  = window.pageYOffset || document.documentElement.scrollTop;
 
-			window.addEventListener('scroll', () => {			     
-			    if(work_box.getBoundingClientRect().top <=  !work_box.classList.contains('is-show')){
+		window.addEventListener('scroll', () => {			     
+			if(work_box.getBoundingClientRect().top <=  !work_box.classList.contains('is-show')){
 			      nav.style.display = "none";
 			    } 
-                else{
-                    nav.style.display = "block";
-                }
-			}); 
+			else{
+			    nav.style.display = "block";
+			}
+		}); 
         </script>
         <script>
             const body = document.body;
