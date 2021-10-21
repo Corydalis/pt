@@ -1,0 +1,415 @@
+@media (max-width:  1920px){
+
+}
+
+@media (max-width:  1440px){
+	
+}
+
+@media (max-width:  1240px){
+	
+}
+
+@media (max-width:  768px){
+	
+}
+
+@media (max-width:  425px){
+.forwrap{
+	
+}
+
+.nav{
+	display: none;
+}
+.nav-con{
+	display:  block;
+}
+#menu_checkbox
+{
+    display: none;
+}
+
+#menu_label
+{
+    position: relative;
+    display: block;
+    height: 29px;
+    cursor: pointer;
+}
+
+#menu_label:before, #menu_label:after, #menu_text_bar
+{
+    position: absolute;
+    left: 0;
+    width: 32%;
+    height: 5px;
+    background-color: #6fd38a;
+}
+
+#menu_label:before, #menu_label:after
+{
+    content: '';
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55) left;
+}
+
+#menu_label:before
+{
+    top: 0;
+}
+
+#menu_label:after
+{
+    top: 12px;
+}
+
+#menu_text_bar
+{
+    top: 24px;
+}
+/*
+#menu_text_bar:before
+{
+    content: 'MENU';
+    position: absolute;
+    top: 5px;
+    right: 0;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-align: center;
+}*/
+
+.for_m_wrap{
+	opacity: 0;
+	visibility: hidden;
+padding-top: 6rem;
+
+}
+
+#menu_checkbox:checked + #menu_label:before
+{
+    left: 0px;
+}
+
+#menu_checkbox:checked + #menu_label:after
+{
+    left: 39px;
+} 
+
+#menu_checkbox:checked + #menu_label #menu_text_bar:before
+{
+    animation: moveUpThenDown 0.8s ease 0.2s forwards, shakeWhileMovingUp 0.8s ease 0.2s forwards, shakeWhileMovingDown 0.2s ease 0.8s forwards;
+}
+
+#menu_checkbox:checked + #menu_label .for_m_wrap{
+		opacity: 1;
+	visibility: visible;
+background: #fff;
+    width: 100vw;
+    padding: 4rem 1rem;
+}
+
+
+@keyframes moveUpThenDown
+{
+    0%{ top:0; }
+    50%{ top:-27px;}
+    100%{ top:-14px; }
+}
+
+@keyframes shakeWhileMovingUp
+{
+    0%{ transform: rotateZ(0); }
+    25%{ transform:rotateZ(-10deg); }
+    50%{ transform:rotateZ(0deg); }
+    75%{ transform:rotateZ(10deg); }
+    100%{ transform:rotateZ(0); }
+}
+
+@keyframes shakeWhileMovingDown
+{
+    0%{ transform:rotateZ(0); }
+    80%{ transform:rotateZ(3deg); }
+    90%{ transform:rotateZ(-3deg); }
+    100%{ transform:rotateZ(0); }
+}
+
+
+
+
+
+
+
+	.cursor{
+		display: none;
+	}
+
+div.nav a{
+	font-size: 2rem;
+}
+	section {
+    height: 50vh;
+}
+	div.nav {
+	    position: fixed;
+	    top: 20%;
+	    background:  rgba(255,255,255,0.2);
+	    display: block;
+	}
+
+	div.pc{
+		display: none;
+	}
+
+	div.top {
+    position: relative;
+    width: 100%;
+    left: 5%;
+    margin: 2rem auto 3rem;
+}
+
+
+.port-wrap {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 20%;
+        height: 50vh;
+    margin: 3rem 0;
+}
+
+
+.design-wrap:after {
+    content: 'Design';
+    display: block;
+    transform: rotate( 
+90deg
+ );
+    font-size: 4rem;
+    position: absolute;
+    left: 42%;
+    letter-spacing: 1.2rem;
+    font-family: 'paybooc-Bold';
+    margin-top: 2%;
+    z-index: 999;
+}
+
+.design-wrap h3 {
+    font-size: 2rem;
+}
+
+
+.design-wrap:before {
+    background: gainsboro;
+    height: 5px;
+    widtH: 25%;
+    display: block;
+    margin: 0 auto;
+    content: '';
+    position: absolute;
+    left: 15%;
+    transform: rotate( 
+90deg
+);
+    margin-top: 8%;
+}
+
+.design-tit {
+margin: 0 auto;
+    width: 60%;
+    position: relative;
+    left: -20%;
+    top: 27%;
+    }
+
+.code-wrap .code-tit {
+    text-align: right;
+    display: block;
+    flex-direction: row;
+    width: 75%;
+    padding: 0rem 1rem 0;
+    position: relative;
+    top: -7%;
+    left: 0%;
+    transform: translate(3%, -9%);
+}
+
+.code-wrap:before {
+content: 'Publishing';
+    display: block;
+    transform: rotate( 
+90deg
+ );
+    font-size: 4rem;
+    position: absolute;
+    left: 22%;
+    letter-spacing: 1rem;
+    font-family: 'paybooc-Bold';
+    margin-top: 37%;
+}
+
+.code-wrap:after {
+    background: gainsboro;
+    height: 8px;
+    widtH: 25%;
+    display: block;
+    margin: 0 auto;
+    content: '';
+    position: absolute;
+    left: 69%;
+    transform: rotate( 
+90deg
+);
+    margin-top: -56%;
+    display: none;
+}
+
+.design-wrap:before{
+	display: none;
+}
+
+.code-tit .codes h3 {
+    font-size: 1.7rem;
+    text-align:  right;
+}
+
+.code-tit .codes {
+    width: 100%;
+}
+
+.work-wrap {
+    display: block;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 1rem 0rem;
+}
+
+div.work {
+    margin: 0rem 0;
+    width: 100%;
+}
+
+.typing{
+	display: none;
+}
+
+section.top-con div.top img{
+	width:  100%;
+}
+
+
+.design-ex-wrap {
+    widtH: 38%;
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+    lefT: -22%;
+    justify-content: center;
+    top: -2%;
+    display: none;
+}
+
+.design-ex-wrap img {
+    width: 100%;
+    margin: 0 1rem;
+    position: absolute;
+    left: 10%;
+}
+
+section{
+	height:  65vh;
+}
+
+.mobile_tit {
+    color: dimgrey;
+    display: block;
+    transform: rotate( 
+90deg
+ );
+    font-size: 2rem;
+    position: absolute;
+    left: 56%;
+    letter-spacing: 1rem;
+    font-family: 'paybooc-Bold';
+    margin-top: 26%;
+    z-index: 999;
+}
+
+.work-box{
+	    position: relative;
+    left: -14%;
+}
+}
+
+@media (max-width:  425px){
+
+	.mobile_tit {
+    left: 42%;
+    letter-spacing: 1rem;
+    font-family: 'paybooc-Bold';
+    margin-top: 40%;
+}
+.design-wrap {
+    height: 100vh;
+    margin: 3rem 0;
+    position: relative;
+    left: -14%;
+}
+
+.code-wrap {
+    width: 55%;
+    margin: 0 auto;
+    height: 80vh;
+    position: relative;
+    left: -29%;
+}
+
+.code-wrap .code-tit{
+	left:  34%;
+}
+}
+
+
+@media (max-width:  320px){
+.mobile_tit {
+    left: 28%;
+    letter-spacing: 1rem;
+    font-family: 'paybooc-Bold';
+    margin-top: 46%;
+}
+
+.design-wrap:after{
+	left:  27%;
+}
+
+.code-wrap:before {
+    content: 'Publishing';
+    display: block;
+    transform: rotate( 
+90deg
+ );
+    font-size: 4rem;
+    position: absolute;
+    left: -13%;
+    letter-spacing: 1rem;
+    font-family: 'paybooc-Bold';
+    margin-top: 89%;
+}
+
+.code-wrap .code-tit {
+    left: 2%;
+}
+
+.work-box {
+    position: relative;
+    left: -19%;
+    margin: 6rem 0;
+}
+
+.work-span a:before{
+    width: 28%
+}
+}
