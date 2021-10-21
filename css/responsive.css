@@ -15,6 +15,9 @@
 }
 
 @media (max-width:  425px){
+body{
+	overflow:hidden;
+	}
 .nav{
 	display: none;
 }
