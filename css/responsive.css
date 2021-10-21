@@ -1,7 +1,20 @@
+@media (max-width:  1920px){
+
+}
+
+@media (max-width:  1440px){
+	
+}
+
+@media (max-width:  1240px){
+	
+}
+
+@media (max-width:  768px){
+	
+}
+
 @media (max-width:  425px){
-    html,body{
-        overflow-x: hidden;
-    }
 .nav{
 	display: none;
 }
