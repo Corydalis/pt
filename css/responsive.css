@@ -1,23 +1,5 @@
-@media (max-width:  1920px){
-
-}
-
-@media (max-width:  1440px){
-	
-}
-
-@media (max-width:  1240px){
-	
-}
-
-@media (max-width:  768px){
-	
-}
-
 @media (max-width:  425px){
-.forwrap{
-	
-}
+
 
 .nav{
 	display: none;
@@ -157,7 +139,6 @@ div.nav a{
 	    position: fixed;
 	    top: 20%;
 	    background:  rgba(255,255,255,0.2);
-	    display: block;
 	}
 
 	div.pc{
