@@ -319,11 +319,12 @@
                  nav.insertBefore(tit, currDiv);
                  document.body.onload = for_mobile;
 
-
+                 document.querySelector('.nav').style.display = "none";
                  window.addEventListener('scroll', () => {
                     const anch = document.querySelector('.top-img');
                     const pc = document.querySelector('.pc');
                     const burger = document.querySelector('.nav');
+                    
                 if(anch.getBoundingClientRect().top <=  !anch.classList.contains('is-show')){
                     burger.style.display = "block";
                     pc.style.display ="none";
